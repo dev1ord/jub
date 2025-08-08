@@ -478,15 +478,7 @@
                     <div class="form-group">
                         <input type="email" id="seekerEmail" name="email" required>
                         <label for="seekerEmail">Email Address</label>
-                    </div>
-                    <div class="form-group file-upload">
-                        <input type="file" id="seekerResume" name="resume" accept=".pdf,.doc,.docx" required>
-                        <label for="seekerResume" class="file-label">
-                            <i class="fas fa-cloud-upload-alt"></i>
-                            <span>Upload Resume (PDF, DOC, DOCX)</span>
-                        </label>
-                        <div class="file-info" id="resumeInfo"></div>
-                    </div>
+                    </div>                    
                     <div class="form-group">
                         <select id="seekerIndustry" name="industry" required>
                             <option value="">Select Preferred Industry</option>
@@ -501,6 +493,13 @@
                         </select>
                         <label for="seekerIndustry">Preferred Industry</label>
                     </div>
+                    <div class="form-group file-upload">
+                        <input type="file" id="seekerResume" name="resume" accept=".pdf,.doc,.docx" required>
+                        <label for="seekerResume" class="file-label">Upload Resume (PDF, DOC, DOCX)
+                            <i class="fas fa-cloud-upload-alt"><span></span></i>
+                        </label>
+                        <div class="file-info" id="resumeInfo"></div>
+                    </div><br>
                     <button type="submit" class="btn btn-primary btn-submit">
                         <i class="fas fa-rocket"></i>
                         Start My Career Journey
