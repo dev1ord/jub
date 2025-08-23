@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobsNVisa - Your Gateway to Career Excellence</title>
+    <link rel="icon" type="image/png" href="1.png">
+    <link rel="shortcut icon" type="image/png" href="1.png">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+
+                <a href="#home">
+                    <img src="1 (1).png" alt="JobsNVisa Logo" class="logo-image">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#industries" class="nav-link">Industries</a></li>
+                <li><a href="#why-us" class="nav-link">Why Us</a></li>
+                <li><a href="#benefits" class="nav-link">Benefits</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-shape"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Your Gateway to
+                    <span class="highlight">Career Excellence</span>
+                </h1>
+                <p class="hero-description">
+                    Connect with top employers across Australia's fastest-growing industries. 
+                    We bridge the gap between talent and opportunity with personalized visa and employment solutions.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-secondary btn-cta" id="jobSeekerBtn">
+                        <i class="fas fa-user"></i>
+                        Find Your Dream Job
+                    </button>
+                    <button class="btn btn-primary btn-cta" id="postJobBtn">
+                        <i class="fas fa-briefcase"></i>
+                        Post a Job
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <div class="card-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>10,000+</h3>
+                    <p>Jobs Available</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About JobsNVisa</h2>
+                <p>Leading the way in career placement and visa solutions</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Empowering Careers, Enabling Dreams</h3>
+                    <p>At JobsNVisa, we understand that finding the right career opportunity is more than just landing a job – it's about building a future. With over a decade of experience in the Australian job market, we specialize in connecting skilled professionals with employers across critical industries.</p>
+                    <p>Our comprehensive approach combines expert career guidance, visa assistance, and ongoing support to ensure your transition to Australian employment is seamless and successful.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Personalized Career Matching</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Expert Visa Guidance</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Ongoing Professional Support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="industries" class="industries">
+        <div class="container">
+            <div class="section-header">
+                <h2>Industries We Serve</h2>
+                <p>Connecting talent across Australia's most dynamic sectors</p>
+            </div>
+            <div class="industries-grid">
+                <div class="industry-card" data-industry="aged-care">
+                    <div class="card-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Aged Care</h3>
+                    <p>Compassionate care for seniors with growing opportunities nationwide</p>
+                    <div class="card-footer">
+                        <span class="job-count">2,500+ Jobs</span>
+                    </div>
+                </div>
+                <div class="industry-card" data-industry="ndis">
+                    <div class="card-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>NDIS</h3>
+                    <p>National Disability Insurance Scheme support roles making a difference</p>
+                    <div class="card-footer">
+                        <span class="job-count">1,800+ Jobs</span>
+                    </div>
+                </div>
+                <div class="industry-card" data-industry="residential">
+                    <div class="card-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Residential Care</h3>
+                    <p>Creating supportive environments for vulnerable community members</p>
+                    <div class="card-footer">
+                        <span class="job-count">1,200+ Jobs</span>
+                    </div>
+                </div>
+                <div class="industry-card" data-industry="healthcare">
+                    <div class="card-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>Health Care</h3>
+                    <p>Essential healthcare services with excellent career progression</p>
+                    <div class="card-footer">
+                        <span class="job-count">3,200+ Jobs</span>
+                    </div>
+                </div>
+                <div class="industry-card" data-industry="childcare">
+                    <div class="card-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>Child Care</h3>
+                    <p>Nurturing the next generation with rewarding career opportunities</p>
+                    <div class="card-footer">
+                        <span class="job-count">2,100+ Jobs</span>
+                    </div>
+                </div>
+                <div class="industry-card" data-industry="construction">
+                    <div class="card-icon">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <h3>Construction</h3>
+                    <p>Building Australia's future with skilled trades and management roles</p>
+                    <div class="card-footer">
+                        <span class="job-count">4,500+ Jobs</span>
+                    </div>
+                </div>
+                <div class="industry-card" data-industry="it-engineering">
+                    <div class="card-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>IT & Engineering</h3>
+                    <p>Innovation-driven roles in technology and engineering excellence</p>
+                    <div class="card-footer">
+                        <span class="job-count">3,800+ Jobs</span>
+                    </div>
+                </div>
+                <div class="industry-card" data-industry="retail">
+                    <div class="card-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Retail</h3>
+                    <p>Customer-focused positions with flexible scheduling and growth potential</p>
+                    <div class="card-footer">
+                        <span class="job-count">2,800+ Jobs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="why-us" class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose JobsNVisa</h2>
+                <p>Your success is our achievement</p>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-item">
+                    <div class="achievement-number" data-target="15000">0</div>
+                    <div class="achievement-label">Successful Placements</div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-number" data-target="98">0</div>
+                    <div class="achievement-label">Success Rate %</div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-number" data-target="500">0</div>
+                    <div class="achievement-label">Partner Employers</div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-number" data-target="12">0</div>
+                    <div class="achievement-label">Years Experience</div>
+                </div>
+            </div>
+            <div class="why-us-content">
+                <div class="why-us-grid">
+                    <div class="reason-card">
+                        <div class="reason-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>Industry Expertise</h3>
+                        <p>Deep understanding of Australian job market trends and requirements across all major industries.</p>
+                    </div>
+                    <div class="reason-card">
+                        <div class="reason-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Trusted Partnerships</h3>
+                        <p>Strong relationships with leading employers who trust us to find their ideal candidates.</p>
+                    </div>
+                    <div class="reason-card">
+                        <div class="reason-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Fast Track Process</h3>
+                        <p>Streamlined application and placement process that gets you started quickly.</p>
+                    </div>
+                    <div class="reason-card">
+                        <div class="reason-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Secure & Reliable</h3>
+                        <p>Licensed migration agents and registered employment services for your peace of mind.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Your Benefits</h2>
+                <p>Comprehensive support for your career journey</p>
+            </div>
+            <div class="benefits-content">
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Personalized Job Matching</h3>
+                        <p>Our AI-powered system matches your skills and preferences with the perfect opportunities.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-passport"></i>
+                        </div>
+                        <h3>Visa Application Support</h3>
+                        <p>Expert guidance through the entire visa application process from start to finish.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Skill Development</h3>
+                        <p>Access to training programs and certifications to enhance your employability.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3>24/7 Support</h3>
+                        <p>Round-the-clock assistance for all your career and visa-related queries.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Professional Network</h3>
+                        <p>Connect with industry professionals and expand your career opportunities.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Career Growth</h3>
+                        <p>Ongoing support and guidance to help you advance in your chosen career path.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive solutions for your career success</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card featured">
+                    <div class="service-image">
+                        <i class="fas fa-heart-pulse"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Aged Care Placement</h3>
+                        <p>Specialized placement services for aged care professionals including nurses, carers, and support staff. We understand the unique requirements of this rewarding sector.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Certified aged care positions</li>
+                            <li><i class="fas fa-check"></i> Competitive salary packages</li>
+                            <li><i class="fas fa-check"></i> Flexible work arrangements</li>
+                            <li><i class="fas fa-check"></i> Career progression paths</li>
+                        </ul>
+                        <button class="service-btn">Learn More</button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Home Care Services</h3>
+                        <p>Connect with opportunities in home-based care services, providing essential support to clients in their own environments.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Flexible scheduling options</li>
+                            <li><i class="fas fa-check"></i> Training and certification</li>
+                            <li><i class="fas fa-check"></i> Local placement network</li><br><br>
+                        </ul>
+                        <button class="service-btn">Explore Jobs</button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <i class="fas fa-plane-departure"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Relocation Support</h3>
+                        <p>Complete relocation assistance including visa processing, accommodation guidance, and settlement support for international candidates.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Visa application assistance</li>
+                            <li><i class="fas fa-check"></i> Accommodation support</li>
+                            <li><i class="fas fa-check"></i> Settlement services</li><br>
+                        </ul>
+                        <button class="service-btn">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to start your career journey? Contact us today</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p>+61 3 8764 3334</p>
+                        <span>Mon-Fri: 9:00 AM - 6:00 PM AEST</span>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>info@jobsnvisa.com.au</p>
+                        <span>Response within 24 hours</span>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Locations</h3>
+                        <p>Sydney, Melbourne, Brisbane</p>
+                        <span>Serving all of Australia</span>
+                    </div>
+                </div>
+                <div class="contact-form-section">
+                    <div class="contact-form-container">
+                        <h3>Send us a Message</h3>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="text" id="contactName" name="name" required>
+                                    <label for="contactName">Full Name</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="contactEmail" name="email" required>
+                                    <label for="contactEmail">Email Address</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="contactPhone" name="phone" required>
+                                <label for="contactPhone">Phone Number</label>
+                            </div>
+                            <div class="form-group">
+                                <select id="contactSubject" name="subject" required>
+                                    <option value="">Select Subject</option>
+                                    <option value="job-seeker">Job Seeker Inquiry</option>
+                                    <option value="employer">Employer Services</option>
+                                    <option value="visa-assistance">Visa Assistance</option>
+                                    <option value="general">General Inquiry</option>
+                                </select>
+                                <label for="contactSubject">Subject</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="contactMessage" name="message" rows="5" required></textarea>
+                                <label for="contactMessage">Message</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Job Seeker Modal -->
+    <div class="modal" id="jobSeekerModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Find Your Dream Job</h2>
+                <button class="modal-close" id="closeJobSeekerModal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Join thousands of professionals who have found their perfect career through JobsNVisa</p>
+                <form class="job-form" id="jobSeekerForm">
+                    <div class="form-group">
+                        <input type="text" id="seekerName" name="name" required>
+                        <label for="seekerName">Full Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="seekerPhone" name="phone" required>
+                        <label for="seekerPhone">Contact Number</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="seekerEmail" name="email" required>
+                        <label for="seekerEmail">Email Address</label>
+                    </div>                    
+                    <div class="form-group">
+                        <select id="seekerIndustry" name="industry" required>
+                            <option value="">Select Preferred Industry</option>
+                            <option value="aged-care">Aged Care</option>
+                            <option value="ndis">NDIS</option>
+                            <option value="healthcare">Healthcare</option>
+                            <option value="construction">Construction</option>
+                            <option value="it-engineering">IT & Engineering</option>
+                            <option value="residential-care">Residential Care</option>
+                            <option value="retail">Retail</option>
+                            <option value="child-care">Child Care</option>
+                        </select>
+                        <label for="seekerIndustry">Preferred Industry</label>
+                    </div>
+                    <div class="form-group file-upload">
+                        <input type="file" id="seekerResume" name="resume" accept=".pdf,.doc,.docx" required>
+                        <label for="seekerResume" class="file-label">Upload Resume (PDF, DOC, DOCX)
+                            <i class="fas fa-cloud-upload-alt"><span></span></i>
+                        </label>
+                        <div class="file-info" id="resumeInfo"></div>
+                    </div><br>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <i class="fas fa-rocket"></i>
+                        Start My Career Journey
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Post Job Modal -->
+    <div class="modal" id="postJobModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Post a Job</h2>
+                <button class="modal-close" id="closePostJobModal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Find the perfect candidates for your organization through our extensive network</p>
+                <form class="job-form" id="postJobForm">
+                    <div class="form-group">
+                        <input type="text" id="companyName" name="company" required>
+                        <label for="companyName">Company Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="jobTitle" name="title" required>
+                        <label for="jobTitle">Job Title</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="jobDescription" name="description" rows="4" required></textarea>
+                        <label for="jobDescription">Job Description</label>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="tel" id="companyPhone" name="phone" required>
+                            <label for="companyPhone">Contact Number</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="companyEmail" name="email" required>
+                            <label for="companyEmail">Email Address</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <select id="jobIndustry" name="industry" required>
+                            <option value="">Select Industry</option>
+                            <option value="aged-care">Aged Care</option>
+                            <option value="ndis">NDIS</option>
+                            <option value="healthcare">Healthcare</option>
+                            <option value="construction">Construction</option>
+                            <option value="it-engineering">IT & Engineering</option>
+                            <option value="residential-care">Residential Care</option>
+                            <option value="retail">Retail</option>
+                            <option value="child-care">Child Care</option>
+                        </select>
+                        <label for="jobIndustry">Industry</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <i class="fas fa-bullhorn"></i>
+                        Post Job Opening
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content success-modal">
+            <div class="modal-body">
+                <div class="success-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h2>Success!</h2>
+                <p id="successMessage">Your submission has been received successfully.</p>
+                <button class="btn btn-primary" id="closeSuccessModal">Continue</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>JobsNVisa</h3>
+                        <p>Your gateway to career excellence in Australia</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#industries">Industries</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+              <div class="footer-section">
+                    <h4>Industries</h4>
+                    <ul class="footer-links">
+                        <li><a href="pages/aged-care.html">Aged Care</a></li>
+                        <li><a href="pages/ndis.html">NDIS</a></li>
+                        <li><a href="pages/healthcare.html">Healthcare</a></li>
+                        <li><a href="pages/construction.html">Construction</a></li>
+                        <li><a href="pages/it-engineering.html">IT & Engineering</a></li>
+                        <li><a href="pages/residential-care.html">Residential Care</a></li>
+                        <li><a href="pages/retail.html">Retail</a></li>
+                        <li><a href="pages/child-care.html">Child Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="pages/help-center.html">Help Center</a></li>
+                        <li><a href="pages/privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="pages/terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="pages/cookie-policy.html">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+61387643334</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@jobsnvisa.com.au</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Sydney, Melbourne, Brisbane</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 JobsNVisa. All rights reserved.</p>
+                    <p>Licensed Migration Agent | Registered Employment Services</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/forms.js"></script>
+</body>
+</html>
